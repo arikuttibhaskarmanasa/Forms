@@ -33,6 +33,7 @@
   </head>
   <body>
     <h1>Form</h1>
+    <form action="/submit-form">
     Name: <input type="text" placeholder="Enter Name" requried/><br>
     Age: <input type="number" placeholder="Enter Age" requried/><br>
     Gender: <input type="radio" name="gender"/> Female
@@ -40,8 +41,9 @@
     <br>
     Gmail : <input type="email" requried/>
     <br>
+      University Name: <input type="text" placeholder="Enter University Name"/><br>
     <button type="Submit">Submit</button>
     <button type="Reset">Reset</button>
-    
+    </form>
   </body>
 </html>
